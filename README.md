@@ -12,6 +12,6 @@ A aplicação estará disponivel em http://localhost:8080
 
 Ao rodar, o nome Wesley será inserido automaticamente na tabela do banco de dados.
 <br>
-Para adicionar um nova nome, acesse a rota / com o parametro "name", por exemplo: http://localhost:8080/?name=John
+Para adicionar um novo nome, acesse a rota / com o parametro "name", por exemplo: http://localhost:8080/?name=John
 
 </p>
