@@ -10,11 +10,13 @@ services:
     networks: 
       - node-network
     tty: true
+    volumes: 
+      - ./node-app:/usr/src/app
     ports: 
       - "3000:3000"
     depends_on: 
        - db
-    command: node index.js
+    command: bash -c "npm i -y && node index.js"
 
   db:
     image: mysql:5.7

@@ -11,10 +11,4 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
 
 EXPOSE 3000
 
-RUN npm init -y
-
-RUN npm i express mysql -y
-
-COPY index.js .
-
 CMD ["node","index.js"]
