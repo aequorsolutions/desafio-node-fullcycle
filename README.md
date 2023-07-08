@@ -10,7 +10,7 @@ Para rodar a aplicação, clone o repositório e execute "docker compose up -d"
 A aplicação estará disponivel em http://localhost:8080
 <br>
 
-Ao rodar, o nome Wesley será inserido automaticamente na tabela do banco de dados.
+Ao rodar pela primeira vez, o nome Wesley será inserido automaticamente na tabela do banco de dados.
 <br>
 Para adicionar um novo nome, acesse a rota / com o parametro "name", por exemplo: http://localhost:8080/?name=John
 
